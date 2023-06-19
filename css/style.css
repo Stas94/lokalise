@@ -62,6 +62,30 @@ body {
     font: 400 15px Graphik LC TT;
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+
 .wrapper {
     width: 1290px;
     margin: 0 auto;
@@ -99,7 +123,11 @@ body {
 }
 
 .menu-items li:nth-child(3) {
-    margin-right: 42px;
+    margin-right: 43px;
+}
+
+.menu-items li:nth-child(4) {
+    margin-right: 55px;
 }
 
 .menu-items li:nth-child(5) {
@@ -151,13 +179,10 @@ body {
 }
 
 
-h1 {
+.test h1 {
     margin-bottom: 51px;
     width: 539px;
-    font-weight: 600;
-    font-size: 65px;
     line-height: 70px;
-    color: #000000;
 }
 
 .main .description {
@@ -165,7 +190,6 @@ h1 {
     width: 471px;
     font-size: 25px;
     line-height: 35px;
-    color: #000000;
 }
 
 .main-btn {
@@ -211,11 +235,7 @@ h1 {
 .preffered h2 {
     width: 720px;
     margin-top: 108px;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
     text-align: center;
-    color: #000000;
 }
 
 .companies ul {
@@ -244,20 +264,10 @@ h1 {
     flex-direction: row-reverse;
     margin-top: 90px;
 }
-/* .control .detail,
-.ensure .detail {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
 
-.control h3,
-.ensure h3 {
+.control h2,
+.ensure h2 {
     width: 493px;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
-    color: #000000;
 }
 
 .control p,
@@ -291,11 +301,8 @@ h1 {
     margin-bottom: 30px;
 }
 
-.shorten h3 {
+.shorten h2 {
     width: 379px;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 60px
 }
 
 .shorten p {
@@ -337,11 +344,8 @@ h1 {
     margin-bottom: 60px;
 }
 
-.less h3 {
+.less h2 {
     width: 348px;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
 }
 
 .less p {
@@ -370,33 +374,19 @@ h1 {
 
 .localize h2 {
     padding-top: 120px;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
     text-align: center;
-    color: #000000;
 }
 
-/* .localize img {
-    width: 160px;
-    height: 120px;
-    display: block;
-    margin: 0 auto;
-} */
-
 .localize h4 {
-    font-weight: 600;
+    text-align: center;
     font-size: 25px;
     line-height: 35px;
-    /* text-align: center; */
-    color: #000000;
 }
 
 .localize p {
     font-size: 18px;
     line-height: 25px;
-    /* text-align: center; */
-    color: #000000;
+    text-align: center;
 }
 
 .service {
@@ -415,7 +405,6 @@ h1 {
 
 .web-apps h4,
 .documents h4 {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -431,7 +420,6 @@ h1 {
 .web-apps p {
     width: 303px;
     height: 75px;
-    text-align: center;
 }
 
 .mobile-apps img {
@@ -450,8 +438,7 @@ h1 {
 
 .mobile-apps p {
     width: 330px;
-    height: 75;
-    text-align: center;
+    height: 75px;
 }
 
 .games {
@@ -479,7 +466,6 @@ h1 {
 .games p {
     width: 281px;
     height: 75px;
-    text-align: center;
 }
 
 .documents img {
@@ -488,7 +474,6 @@ h1 {
 }
 
 .documents h4 {
-    text-align: center;
     margin-right: 5px;
 }
 
@@ -497,11 +482,9 @@ h1 {
     right: 2px;
     width: 309px;
     height: 50px;
-    text-align: center;
 }
 
 .marketing h4 {
-    text-align: center;
     margin-right: 37px;
 }
 
@@ -514,7 +497,6 @@ h1 {
     margin-right: 36px;
     width: 310px;
     height: 75px;
-    text-align: center;
 }
 
 .iot img {
@@ -523,7 +505,6 @@ h1 {
 }
 
 .iot h4 {
-    text-align: center;
     margin-right: 85px;
 }
 
@@ -532,19 +513,10 @@ h1 {
     right: 42px;
     width: 326px;
     height: 50px;
-    text-align: center;
 }
 
 .boost {
     margin-top: 154px;
-}
-
-.boost h2 {
-    margin-right: 54px;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 60px;
-    color: #000000;
 }
 
 .teams {
@@ -574,10 +546,8 @@ h1 {
 .developers h4,
 .translators h4 {
     margin-bottom: 34px;
-    font-weight: 600;
     font-size: 30px;
     line-height: 40px;
-    color: #000000;
 }
 
 .developers h4 {
@@ -599,7 +569,6 @@ h1 {
     margin-bottom: 25px;
     font-size: 20px;
     line-height: 30px;
-    color: #000000;
 }
 
 .developers p {
@@ -623,17 +592,11 @@ h1 {
     margin-top: 188px;
 }
 
-.about .revolut {
-    width: 115px;
-    height: 25px;
-}
-
 .information .text {
     margin-bottom: 23px;
     width: 908px;
     font-size: 30px;
     line-height: 40px;
-    color: #000000;
 }
 
 .speech {
@@ -658,6 +621,11 @@ h1 {
     color: #000000;
 }
 
+.information .revolut {
+    width: 115px;
+    height: 25px;
+}
+
 .translation {
     display: flex;
     justify-content: center;
@@ -675,14 +643,10 @@ h1 {
     margin-right: 67px;
 }
 
-.translation h2 {
+.translation h4 {
     width: 461px;
     margin-bottom: 2px;
     margin-right: 124px;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 50px;
-    color: #000000;
 }
 
 .translation .border {
@@ -754,24 +718,19 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-.integrate h2 {
-    margin-top: 165px;
+
+.integrate h1 {
+    margin-top: 168px;
     width: 791px;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 75px;
     text-align: center;
-    color: #000000;
 }
 
 .integrate p {
     margin-bottom: 25px;
     width: 539px;
-    height: 60px;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    color: #000000;
 }
 
 .integrate img {
@@ -807,23 +766,17 @@ h1 {
     align-items: center;
 }
 
-.made-easy h2 {
+.made-easy h1 {
     width: 784px;
     padding-top: 119px;
     margin-bottom: 29px;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 75px;
     text-align: center;
-    color: #000;
 }
 
 .made-easy p {
     margin-bottom: 54px;
     font-size: 20px;
-    line-height: 30px;  
-    text-align: center;
-    color: #000;
+    line-height: 30px;
 }
 
 .made-easy button {
@@ -854,10 +807,6 @@ h1 {
 .case-study h3 {
     padding-top: 92px;
     margin-bottom: 28px;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 50px;
-    color: #000000;
 }
 
 .case-study .picture {
@@ -882,7 +831,6 @@ h1 {
 }
 
 .case-study a {
-    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
@@ -895,10 +843,8 @@ h1 {
 
 .footer-menu h4 {
     margin-bottom: 21px;
-    font-weight: 600;
     font-size: 20px;
     line-height: 25px;
-    color: #000000;
 }
 
 .footer-menu a {
@@ -930,5 +876,4 @@ h1 {
     width: 301px;
     font-size: 12px;
     line-height: 15px;
-    color: #000000;
 }
