@@ -367,3 +367,568 @@ h1 {
     height: 1033px;
     background: #FFF8E4;
 }
+
+.localize h2 {
+    padding-top: 120px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+/* .localize img {
+    width: 160px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+} */
+
+.localize h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    /* text-align: center; */
+    color: #000000;
+}
+
+.localize p {
+    font-size: 18px;
+    line-height: 25px;
+    /* text-align: center; */
+    color: #000000;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 79px;
+    margin-left: 53px;
+}
+
+.web-apps,
+.mobile-apps,
+.games {
+    margin-bottom: 75px;
+}
+
+.web-apps h4,
+.documents h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.web-apps img,
+.documents img {
+    display: block;
+    width: 160px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.web-apps p {
+    width: 303px;
+    height: 75px;
+    text-align: center;
+}
+
+.mobile-apps img {
+    display: block;
+    width: 160px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+
+.mobile-apps h4 {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.mobile-apps p {
+    width: 330px;
+    height: 75;
+    text-align: center;
+}
+
+.games {
+    margin-right: 65px;
+    margin-left: 11px;
+}
+
+.games img,
+.marketing img,
+.iot img {
+    display: block;
+    width: 160px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.games h4,
+.marketing h4,
+.iot h4 {
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.games p {
+    width: 281px;
+    height: 75px;
+    text-align: center;
+}
+
+.documents img {
+    position: relative;
+    right: 3px;
+}
+
+.documents h4 {
+    text-align: center;
+    margin-right: 5px;
+}
+
+.documents p {
+    position: relative;
+    right: 2px;
+    width: 309px;
+    height: 50px;
+    text-align: center;
+}
+
+.marketing h4 {
+    text-align: center;
+    margin-right: 37px;
+}
+
+.marketing img {
+    position: relative;
+    right: 18px;
+}
+
+.marketing p {
+    margin-right: 36px;
+    width: 310px;
+    height: 75px;
+    text-align: center;
+}
+
+.iot img {
+    position: relative;
+    right: 42px;
+}
+
+.iot h4 {
+    text-align: center;
+    margin-right: 85px;
+}
+
+.iot p {
+    position: relative;
+    right: 42px;
+    width: 326px;
+    height: 50px;
+    text-align: center;
+}
+
+.boost {
+    margin-top: 154px;
+}
+
+.boost h2 {
+    margin-right: 54px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+}
+
+.managers {
+    margin-top: 75px;
+}
+
+.managers img {
+    margin-bottom: 47px;
+    width: 145px;
+    height: 201px;
+}
+
+.developers {
+    margin-top: 92px;
+}
+
+.developers img {
+    margin-bottom: 65px;
+}
+
+.managers h4,
+.developers h4,
+.translators h4 {
+    margin-bottom: 34px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.developers h4 {
+    margin-bottom: 33px;
+}
+
+.translators {
+    margin-top: 84px;
+}
+
+.translators img {
+    margin-bottom: 56px;
+}
+
+.managers p,
+.developers p,
+.translators p {
+    width: 409px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.developers p {
+    margin-bottom: 26px;
+}
+
+.managers a,
+.developers a,
+.translators a {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.about {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 468px;
+    background: #C9E8F2;
+    margin-top: 188px;
+}
+
+.about .revolut {
+    width: 115px;
+    height: 25px;
+}
+
+.information .text {
+    margin-bottom: 23px;
+    width: 908px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.speech {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 61px;
+}
+
+.speech img {
+    position: relative;
+    bottom: 10px;
+    width: 310px;
+    height: 310px;
+}
+
+.information .cheif {
+    margin-bottom: 17px;
+    width: 271px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.translation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 191px;
+    height: 329px;
+    background: #DABC98;
+}
+
+.translation img {
+    width: 176px;
+    height: 154px;
+    margin-left: 55px;
+    margin-bottom: 5px;
+    margin-right: 67px;
+}
+
+.translation h2 {
+    width: 461px;
+    margin-bottom: 2px;
+    margin-right: 124px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.translation .border {
+    height: 168px;
+    margin-bottom: 8px;
+    border-right: 1px solid #000000;
+}
+
+.user-love {
+    width: 128px;
+    margin-left: 17px;
+    margin-bottom: 19px;
+    margin-right: 70px;
+}
+
+.user-love .group {
+    width: 35px;
+    height: 35px;
+}
+
+.user-love p,
+.capterra p {
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+
+.user-love .star,
+.capterra .star {
+    width: 128px;
+    height: 20px;
+}
+
+.user-love .star {
+    position: relative;
+    top: 13px
+}
+
+.user-love p {
+    position: relative;
+    top: 19px;
+    left: 54px;
+}
+
+.capterra {
+    width: 150px;
+    margin-bottom: 17px;
+}
+
+.capterra .capterra-img {
+    width: 150px;
+    height: 37px;
+}
+
+.capterra .star {
+    position: relative;
+    top: 12px;
+}
+
+.capterra p {
+    position: relative;
+    top: 18px;
+    left: 54px;
+}
+
+.integrate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.integrate h2 {
+    margin-top: 165px;
+    width: 791px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+
+.integrate p {
+    margin-bottom: 25px;
+    width: 539px;
+    height: 60px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.integrate img {
+    margin-bottom: 32px;
+    width: 1023px;
+    height: 445px;
+}
+
+.integrate button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 193px;
+    height: 60px;
+    background: #FF6336;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border-color: #FF6336;
+}
+
+.made {
+    margin-top: 162px;
+    height: 603px;
+    background: #FF9C7D;
+}
+
+.made-easy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.made-easy h2 {
+    width: 784px;
+    padding-top: 119px;
+    margin-bottom: 29px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000;
+}
+
+.made-easy p {
+    margin-bottom: 54px;
+    font-size: 20px;
+    line-height: 30px;  
+    text-align: center;
+    color: #000;
+}
+
+.made-easy button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    background: #000;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFF;
+}
+
+.footer {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding-bottom: 95px;
+}
+
+.case-study {
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study h3 {
+    padding-top: 92px;
+    margin-bottom: 28px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.case-study .picture {
+    margin-bottom: 31px;
+    margin-right: 140px;
+    width: 300px;
+    height: 300px;
+}
+
+.case-study .specialized {
+    margin-bottom: 11px;
+    width: 80px;
+    height: 32px;
+}
+
+.case-study p {
+    margin-bottom: 15px;
+    width: 290px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.case-study a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.footer-menu {
+    display: flex;
+    padding-top: 98px;
+}
+
+.footer-menu h4 {
+    margin-bottom: 21px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.footer-menu a {
+    display: block;
+    width: 168px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.footer-menu li {
+    margin-right: 53px
+}
+
+.footer-copyright {
+    display: flex;
+    margin-top: 52px;
+    margin-bottom: 43px;
+}
+
+.footer-copyright img {
+    margin-right: 14px;
+    width: 90px;
+    height: 21px;
+}
+
+.footer-copyright .copytright {
+    width: 301px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
